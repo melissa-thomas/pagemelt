@@ -13,6 +13,14 @@ body {
   margin: 50px auto;
 }
 
+.grid {
+  grid-template-columns: 1fr 1fr;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
 .section__head {
   border-radius: 3px;
   color: #fff;
@@ -22,6 +30,10 @@ body {
   padding: 4px 8px;
   text-align: center;
   text-transform: uppercase;
+}
+
+.section__head.section__head--project {
+  background-color: #33b3d0;
 }
 
 .section__head.section__head--social {
@@ -34,15 +46,6 @@ body {
 
 .section__head.section__head--wishlists {
   background-color: #6656e8;
-}
-
-.wrapper.wrapper--flex {
-  display: flex;
-  justify-content: flex-start;
-}
-
-.section {
-  margin-right: 2em;
 }
 
 .section.section--wishlists {
@@ -78,6 +81,10 @@ body {
   height: 3px;
 }
 
+.section__link.section__link--project:after {
+  background-color: #cfeff6;
+}
+
 .section__link.section__link--social:after {
   background-color: #f9c5e5;
 }
@@ -109,13 +116,7 @@ body {
     margin: 60px 55px 40px 55px;
   }
 
-  .wrapper.wrapper--flex {
-    flex-direction: column;
+  .grid {
     margin: auto 50px;
-  }
-
-  .section {
-    margin-bottom: 20px;
-    margin-right: unset;
   }
 }
