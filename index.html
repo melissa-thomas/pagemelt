@@ -8,19 +8,45 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="icon" type="image/png" href="img/books.png" sizes="16x16">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/fe5fe323b2.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <main class="main wrapper">
-    <p class="main__p"><strong>@pagemelt</strong> is me, <strong>Melissa Thomas</strong> (she/her).</p>
-    <p class="main__p">I live in Kentucky with my husband and our corgi. For work, I design software. For fun, I like to read. I also like to garden, cook, write, build weird little websites (like this one), and drink craft beer with friends.</p>
+    <div class="avi">
+      <img class="avi__img" src="img/avi.png" alt="">
+    </div>
+    <div class="main__info">
+      <p class="main__p"><strong>Melissa Thomas</strong></p>
+      <p class="main__p">@pagemelt</p>
+      <p class="main__p">she/they</p>
+      <p class="main__p socials">
+        <a href="mailto:pagemetl@gmail.com" class="socials__link">
+          <i class="far fa-paper-plane"></i>
+        </a>
+        <a href="https://www.goodreads.com/user/show/73995085-melissa" class="socials__link">
+          <i class="fab fa-goodreads-g"></i>
+        </a>
+        <a href="https://open.spotify.com/user/122690037?si=151f62d557c64241" class="socials__link">
+          <i class="fab fa-spotify"></i>
+        </a>
+        <a href="https://www.tiktok.com/@pagemelt" class="socials__link">
+          <i class="fab fa-tiktok"></i>
+        </a>
+        <a href="https://twitter.com/pagemelt" class="socials__link">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </p>
+    </div>
   </main>
-  <div class="grid wrapper">
+  <div class="content wrapper">
     <section class="section section--project">
       <div class="section__head section__head--project">Projects</div>
       <ul class="section__links">
         <li class="section__item">
-          <a href="https://www.notion.so/pagemelt-s-bookshelf-665e2bec0f58426bb14a686f8fc8daa3" class="link section__link section__link--project">📚 My Library</a>
+          <a href="https://www.notion.so/pagemelt-s-bookshelf-665e2bec0f58426bb14a686f8fc8daa3" class="link section__link section__link--project">Notion Library Database</a>
         </li>
       </ul>
     </section>
@@ -28,33 +54,44 @@
       <div class="section__head section__head--social">Social Media</div>
       <ul class="section__links">
         <li class="section__item">
-          <a href="https://www.goodreads.com/user/show/73995085-melissa" class="link section__link section__link--social">📚 Goodreads</a>
+          <a href="mailto:pagemetl@gmail.com" class="link section__link section__link--social">
+            <div class="section__icon">
+              <i class="far fa-paper-plane"></i>
+            </div>
+            <div>Email</div>
+          </a>
         </li>
         <li class="section__item">
-          <a href="https://www.tiktok.com/@pagemelt" class="link section__link section__link--social">📺 TikTok</a>
+          <a href="https://www.goodreads.com/user/show/73995085-melissa" class="link section__link section__link--social">
+            <div class="section__icon">
+              <i class="fab fa-goodreads-g"></i>
+            </div>
+            <div>Goodreads</div>
+          </a>
         </li>
         <li class="section__item">
-          <a href="https://twitter.com/pagemelt" class="link section__link section__link--social">🐦 Twitter</a>
-        </li>
-      </ul>
-    </section>
-    <section class="section section--playlists">
-      <div class="section__head section__head--playlists">Spotify Playlists</div>
-      <ul class="section__links">
-        <li class="section__item">
-          <a href="https://open.spotify.com/playlist/1OzSDDn3b54SR9DW1ZoxlJ?si=a331b960ef684e08" class="link section__link section__link--playlists">🐺 All the Young Dudes</a>
+          <a href="https://twitter.com/pagemelt" class="link section__link section__link--social">
+            <div class="section__icon">
+              <i class="fab fa-spotify"></i>
+            </div>
+            <div>Spotify</div>
+          </a>
         </li>
         <li class="section__item">
-          <a href="https://open.spotify.com/playlist/0z5HJUv3t8L8shBTLi61Kl?si=a97ca626108b4ae4" class="link section__link section__link--playlists">👑 Captive Prince</a>
+          <a href="https://www.tiktok.com/@pagemelt" class="link section__link section__link--social">
+            <div class="section__icon">
+              <i class="fab fa-tiktok"></i>
+            </div>
+            <div>TikTok</div>
+          </a>
         </li>
         <li class="section__item">
-          <a href="https://open.spotify.com/playlist/6MELFI1fWovSDdA3Rk7c3Q?si=5c3ed0cbccd64733" class="link section__link section__link--playlists">🌌 A Court of Thorns and Roses</a>
-        </li>
-        <li class="section__item">
-          <a href="https://open.spotify.com/playlist/5z1OXNwXw1NakPb3BmqXLL?si=293f8ba180964793" class="link section__link section__link--playlists">🖼️ The Invisible Life of Addie LaRue</a>
-        </li>
-        <li class="section__item">
-          <a href="https://open.spotify.com/playlist/2tGonKkyA8A567u2T8FxUx?si=fbc8b372967e4568" class="link section__link section__link--playlists">👔 Red, White & Royal Blue</a>
+          <a href="https://twitter.com/pagemelt" class="link section__link section__link--social">
+            <div class="section__icon">
+              <i class="fab fa-twitter"></i>
+            </div>
+            <div>Twitter</div>
+          </a>
         </li>
       </ul>
     </section>
@@ -62,10 +99,10 @@
       <div class="section__head section__head--wishlists">Wishlists</div>
       <ul class="section__links">
         <li class="section__item">
-          <a href="https://www.amazon.com/hz/wishlist/ls/Y46C856X8LKU?ref_=wl_share" class="link section__link section__link--wishlists">🛍️ Amazon</a>
+          <a href="https://www.amazon.com/hz/wishlist/ls/Y46C856X8LKU?ref_=wl_share" class="link section__link section__link--wishlists">Amazon</a>
         </li>
         <li class="section__item">
-          <a href="https://www.thriftbooks.com/list/share/9bbf3f3563097049/" class="link section__link section__link--wishlists">🌱 Thriftbooks</a>
+          <a href="https://www.thriftbooks.com/list/share/9bbf3f3563097049/" class="link section__link section__link--wishlists">Thriftbooks</a>
         </li>
       </ul>
     </section>
